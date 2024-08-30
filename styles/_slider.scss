@@ -1,0 +1,31 @@
+.slider {
+  margin-bottom: 64px;
+  background: $sliderBg;
+  width: 100%;
+  height: 320px;
+  border-radius: 16px;
+  padding: 16px 40px;
+
+  img {
+    width: 688px;
+    height: 288px;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .slider {
+    width: 1200px;
+    height: 530px;
+    margin: 200px auto 124px;
+    display: flex;
+    align-items: center;
+
+    #carouselExampleControls,
+    img {
+      width: 1120px;
+      height: 400px;
+    }
+  }
+}

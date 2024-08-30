@@ -1,0 +1,70 @@
+@import "./colors";
+@import "./headerNav";
+@import "./blog";
+@import "./latestNews";
+@import "./footer";
+@import "./slider";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-style: normal;
+}
+
+body {
+  min-width: 375px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    min-width: 768px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  body {
+    min-width: 1440px;
+  }
+
+  h3 {
+    font-size: 24px;
+    line-height: 48px;
+  }
+}
